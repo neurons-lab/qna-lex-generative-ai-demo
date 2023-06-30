@@ -1,0 +1,72 @@
+{
+  "openai": true,
+  "requestAttributes": {
+    "x-amz-lex:channels:platform": "Slack"
+  },
+  "sessionId": "b74fec8e-56bc-4bfd-908b-02e6ebb77416:U02BUCUD1L3",
+  "inputTranscript": "give me apple pie recepy",
+  "interpretations": [
+    {
+      "intent": {
+        "name": "FallbackIntent",
+        "slots": {},
+        "state": "ReadyForFulfillment",
+        "confirmationState": "None"
+      }
+    },
+    {
+      "intent": {
+        "name": "PeopleHandbook",
+        "slots": {
+          "question": null
+        },
+        "state": "ReadyForFulfillment",
+        "confirmationState": "None"
+      },
+      "nluConfidence": 0.48
+    },
+    {
+      "intent": {
+        "name": "Greating",
+        "slots": {
+          "Handbook": null
+        },
+        "state": "ReadyForFulfillment",
+        "confirmationState": "None"
+      },
+      "nluConfidence": 0.41
+    }
+  ],
+  "bot": {
+    "name": "NeuronsLabHandbookSlackBot",
+    "version": "DRAFT",
+    "localeId": "en_US",
+    "id": "QHUG8KD16Z",
+    "aliasId": "TSTALIASID",
+    "aliasName": "TestBotAlias"
+  },
+  "responseContentType": "text/plain; charset=utf-8",
+  "sessionState": {
+    "sessionAttributes": {},
+    "intent": {
+      "name": "FallbackIntent",
+      "slots": {},
+      "state": "ReadyForFulfillment",
+      "confirmationState": "None"
+    },
+    "originatingRequestId": "6b4191d8-5328-479f-8966-6e1eb5d933ea"
+  },
+  "messageVersion": "1.0",
+  "invocationSource": "FulfillmentCodeHook",
+  "transcriptions": [
+    {
+      "resolvedContext": {
+        "intent": "FallbackIntent"
+      },
+      "transcription": "give me apple pie recepy",
+      "resolvedSlots": {},
+      "transcriptionConfidence": 1
+    }
+  ],
+  "inputMode": "Text"
+}
