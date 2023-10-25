@@ -2,7 +2,7 @@ pydantic==1.10.7
 boto3==1.26.91
 aws-requests-auth==0.4.3
 
-langchain==0.0.198
+langchain==0.0.317
 openai
 tiktoken
 
